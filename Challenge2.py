@@ -1,5 +1,5 @@
 #Input para receber a frase
-frase = str(input('Digite uma frase: '))
+frase = str(input('Digite a frase: '))
 #Criando uma lista
 palavrasU = []
 #Transformando a frase em uma lista

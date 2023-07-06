@@ -1,5 +1,5 @@
 #Input para receber a frase
-frase = str(input('Digite uma frase: '))
+frase = str(input('Digite a frase: '))
 #Transformando a frase em uma lista
 reverso = frase.split()
 #Invertendo a ordem dos vetores
