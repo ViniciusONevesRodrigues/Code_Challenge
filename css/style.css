@@ -8,5 +8,6 @@ body{
 }
 #bg{
     background-color: #FFFCF7;
-    margin: 5%;
+    height: 100vh;
+    margin: 4%;
 }
