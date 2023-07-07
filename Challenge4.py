@@ -1,5 +1,8 @@
+print("\n")
+print('Coloque em maiúscula a primeira letra de cada frase na sting', )
+print("\n")
 #Input para receber a frase
-frase = str(input("Digite a frase: ")).capitalize()
+frase = str(input("Digite a string: ")).capitalize()
 #Transformando a frase em uma lista
 lista = frase.split()
 #Colocando maiúsculo em cada frase
@@ -11,4 +14,6 @@ espaco = " "
 #Transformando lista de volta a frase
 resultado = espaco.join(lista)
 #Apresentação do resultado
+print("\n")
 print(resultado)
+print("\n")
