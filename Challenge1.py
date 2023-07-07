@@ -1,12 +1,12 @@
 #Input para receber a frase
 frase = str(input('Digite a frase: '))
 #Transformando a frase em uma lista
-reverso = frase.split()
+lista = frase.split()
 #Invertendo a ordem dos vetores
-reverso.sort(reverse=True)
+invertido = lista[::-1]
 #Variavel com espaçamento
 espaco = " "
 #Transformando lista de volta a frase
-resultado = espaco.join(reverso)
+resultado = espaco.join(invertido)
 #Apresentação do resultado
 print(resultado)

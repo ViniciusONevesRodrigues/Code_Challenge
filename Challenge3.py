@@ -1,5 +1,5 @@
-#Input para receber a frase
-palavra = str(input('Digite a palavra: ')).strip().upper()
+#Input para receber a palavra
+palavra = str(input('Digite a palavra: ')).strip()
 #Variavel do maior palindroma
 maior_palindroma = ''
 #Procurando as palindromas e definindo o maior
